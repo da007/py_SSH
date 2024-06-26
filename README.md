@@ -67,13 +67,13 @@ answers.xml
 синтаксис:
 <answers>
 	<device name = "название вашего хоста(можно назвать любым именем)">
-		<answer command = "команда" process = "название процедуры из файла processes.xml">ожидаемый вывод в регулярных выражениях</answer>
+  		<answer command = "команда" process = "название процедуры из файла processes.xml">ожидаемый вывод в регулярных выражениях</answer>
 		...
 	</device>
-	<device name = "название другого хоста">
+ 	<device name = "название другого хоста">
 		...
 	</device>
-	...
+ 	...
 </answers>
 processes.xml
 описание: 
