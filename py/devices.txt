@@ -1,0 +1,8 @@
+#Here is list of devices for conecting
+
+#Example
+n = test1
+h = bandit.labs.overthewire.org
+p = 2220
+u = bandit0
+pw = bandit0

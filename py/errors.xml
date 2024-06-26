@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors>
+	<device name = "HuaweiS3700">
+		<error>Error: Unrecognized command found at '^' position.</error>
+		<error>Error:Too many parameters found at '^' position.</error>
+	</device>
+</errors>

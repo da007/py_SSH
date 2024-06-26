@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<processes>
+	<device name = "HuaweiS3700">
+		<process name = "reloadclock" argv = "$1=ntime(%H:%M:%S)">clock timezone ALM add $1</process>
+	</device>
+	<device name = "Termux">
+		<process name = "test" argv = "">ls</process>
+	</device>
+</processes>
