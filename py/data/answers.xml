@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<answers>
+	<device type = "HuaweiS3700">
+		<test>
+			<answer command = "display clock" process = "reloadclock">Time Zone\(ALM\) : UTC\+05:00</answer>
+		</test>
+		<default>
+			<answer command = "display clock" process = "reloadclock">Time Zone\(ALM\) : UTC\+05:00</answer>
+		</default>
+	</device>
+	<device type = "Termux">
+		<default>
+			<answer command = "time" process = "test">Time Zone\(ALM\) : UTC\+05:00</answer>
+		</default>
+	</device>
+</answers>

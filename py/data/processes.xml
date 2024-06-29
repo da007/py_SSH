@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<processes>
+	<device type = "HuaweiS3700">		
+		<default>
+			<process name = "reloadclock" argv = "$1=ntime(%H:%M:%S)">clock timezone ALM add $1</process>
+		</default>
+	</device>
+	<device type = "Termux">		
+		<default>
+			<process name = "test" argv = "">ls</process>
+		</default>
+	</device>
+</processes>

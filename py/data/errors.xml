@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors>
+	<device type = "HuaweiS3700">		
+		<default>
+			<error process = "reloadclock">Error: Unrecognized command found at '^' position.</error>
+			<error command = "display clock" process = "reloadclock">Error:Too many parameters found at '^' position.</error>
+			<error command = "all" process = "reloadclock">Error:Too many parameters found at '^' position.</error>
+		</default>
+	</device>
+</errors>

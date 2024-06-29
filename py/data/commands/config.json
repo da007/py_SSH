@@ -1,0 +1,8 @@
+{
+	"Huaweis3700":{
+		"commands":["1alias"],
+		"test1":{
+			"commands":["2alias"]
+		}
+	}
+}
