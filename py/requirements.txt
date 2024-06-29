@@ -1,2 +1,0 @@
-paramiko==3.4.0
-prompt_toolkit==3.0.46
